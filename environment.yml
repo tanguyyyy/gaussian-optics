@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab >=3
+  - pandas
+  - ipywidgets
+  - pyvista
+  - ipyvtklink
+  - matplotlib
