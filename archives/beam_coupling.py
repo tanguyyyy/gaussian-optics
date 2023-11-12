@@ -157,8 +157,8 @@ B = Gaussian_Beam_2D(Bx, By)
 B.plot_mri_mode(on_axis='z')
 
 
-#X0, K = receptor_sweep_x(B,-0.05,0.05, z0=0.1, N=100)
+X0, K = receptor_sweep_x(B,-0.05,0.05, z0=0.1, N=100)
 
-#plt.plot(X0, K)
-#plt.show()
+plt.plot(X0, K)
+plt.show()
 

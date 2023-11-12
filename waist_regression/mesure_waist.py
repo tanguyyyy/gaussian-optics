@@ -6,7 +6,7 @@ import lmfit
 from mpl_toolkits.mplot3d import Axes3D
 
 lbd = 1.6667e-3
-data = {z_dist: pd.read_csv(f'Mesure_waist_180GHz\champ_z{str(z_dist)}_cornets_180GHZ',sep='\t') for z_dist in [150,160,170,180,190,200,210]}
+data = {z_dist: pd.read_csv(f'waist_regression\champ_z{str(z_dist)}_cornets_180GHZ',sep='\t') for z_dist in [150,160,170,180,190,200,210]}
 
 print(data[150].columns)
 
